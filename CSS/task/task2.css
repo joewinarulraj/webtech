@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(red,yellow,orange);
+
+}
+.outer >.inner{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    overflow: auto;
+}
+.outer h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+.outer p{
+    text-align: justify ;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.inner::selection{
+    background-color: yellowgreen;
+}

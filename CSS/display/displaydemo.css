@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.outer{
+    height: 700px;
+    width: 900px;
+    border: 2px solid red;
+}
+.outer{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+.outer{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
+.outer{
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}

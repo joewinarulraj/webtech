@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    position: fixed;
+    z-index: 1;
+
+    top: 0px;
+
+
+
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    text-transform: uppercase;
+}
+
+nav li{
+    letter-spacing: 2px;
+}
+main{
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    margin-top: 100px;
+
+}
+main>.box{
+    height: 260px ;
+    width: 350px;
+    border: 2px solid black;
+    border-radius: 20px;
+    box-shadow: -3px 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+}
+main p{
+    font-weight: bold;
+}
+section{
+    height: calc(100vh - 400px);
+    background-color:rgb(243, 237, 230) ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+section>.sh1{
+    color: green;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    word-spacing: 4px;
+    text-shadow: -2px 1px 1px black;
+    font-size: 30px;
+}
+section>.sh2{
+    color: red;
+    text-transform: uppercase;
+    font-weight: bolder;
+
+    position: sticky;
+
+    top: 110px;
+}
+section>.sp{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 18px
+}
+main img{
+    height: 100px;
+    width: 100px;
+}
+footer{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+footer .f1{
+    display: block;
+    text-align: center;
+}
+form{
+    height: 200px;
+    width: 800px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color:snow;
+}
+footer input{
+    display: block;
+    padding-right: 280px;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    height: 100vh;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main>.box{
+    height: 60%;
+    background-color: aliceblue;
+    padding: 20px 40px;
+    border-radius: 20px;
+    box-shadow: -3px 3px 2px  black;
+}
+main label{
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 5px;
+    letter-spacing: 1px;
+}
+main input{
+    display: block;
+    padding-right: 120px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 5px;
+}
+main footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+main button{
+    padding: 10px 115px;
+    margin-top: 5px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 8px;
+}
+main h1{
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+main p{
+    text-transform: capitalize;
+    font-weight: lighter;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+main button:hover{
+    background-color: rgb(5, 207, 5);
+}
+main a{
+    text-decoration: none;
+}
+main a:hover{
+    color: rgb(32, 32, 218);
+    text-decoration: none;
+}

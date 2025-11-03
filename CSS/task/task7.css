@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blanchedalmond;
+}
+.outer>.inner{
+    height: 75%;
+    width: 80%;
+    background-color: white;
+    border-radius: 10px;
+}
+nav{
+    margin-top: 15px;
+    padding-left: 20px;
+    padding-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    font-size: 17px;
+}
+.nav{
+    font-weight: lighter;
+    margin-left: 60px;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+button{
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
+.outer .b1{
+    background-color: rgb(97, 97, 249);
+    color: white;
+}
+.outer .b2{
+    background-color: white;
+    color: rgb(98, 98, 242);
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+main .in {
+    height: 350px;
+    width: 500px;
+}
+main>#in2{
+    background-image: url(./OIP\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 20px;
+}
+main>#in1>h1{
+    word-spacing: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    
+}
+main>#in1>p{
+    margin-top: 5px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    text-align: justify;
+    margin-bottom: 80px;
+}
+main>.in>input{
+    padding: 4px 70px;
+}
+
+main .b3{
+    background-color: rgb(97, 97, 249);
+    color: white;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin-top: 40px;
+    margin-left: 150px;
+}
+footer .f2{
+    display: flex;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+footer img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50% ;
+
+}
+footer .pf{
+    font-weight: bolder;
+    font-size: 18px;
+}
+footer .cf{
+    font-weight: lighter;
+}
+
+    
+    
+
+
+
+
+  

@@ -1,0 +1,20 @@
+p{
+color: seagreen;
+}
+ul{
+    color: blue;
+}
+#demo{
+    color:violet ;
+    background-color: blueviolet
+}
+.demo_class{
+    color: tan;
+    background-color:violet;
+}
+p , h5{
+    background-color:pink;
+}
+*{
+    background-color: blue;
+}

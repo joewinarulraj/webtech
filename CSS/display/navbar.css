@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 100px;
+    background-color:blue ;
+    display: flex;
+    justify-content:space-evenly ;
+    align-items: center;
+
+
+
+}
+
+.listitems >ul{
+    display: flex;
+    list-style:none;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.listitems > ul > li :hover {
+    color: aqua;
+
+}
+
+.main{
+    background-color:aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 250px;
+    align-items: center;
+}
+
+.main > h1{
+    display: flex;
+}
+.main > p{
+    display: flex;
+    font: bold;
+}
+.section > .text {
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    display: flex;
+    
+}
+    
+.section{
+    display: flex;
+  
+    align-items: center;
+    gap: 20px
+    ;
+
+}
+
+

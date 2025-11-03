@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh; 
+    background:linear-gradient(to top, orange,white,green);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer>.inner{
+    height: 500px;
+    width: 700px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    background-image:url(./png-transparent-flag-of-india-republic-day-january-26-picsart-studio-editing-india-miscellaneous-flag-world-thumbnail.png) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+
+
+}

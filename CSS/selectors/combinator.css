@@ -1,0 +1,27 @@
+*{
+    background-color:ue;
+}
+div h2 , p{
+    background-color: blue;
+}
+.hover_demo{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+.hover_demo:hover{
+    background-color: darkviolet;
+    width: 200px;
+}
+#ele::first-letter{
+    background-color: brown;
+}
+#ele::before{
+    content:"hi pinky" ;
+}
+[href]{
+    background-color:aqua;
+}
+[href = 'facebook']{
+    background-color: pink;
+}

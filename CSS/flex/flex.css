@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    display: flex;
+}
+.outer > .right{
+    flex-basis: 55%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.outer > .left{
+    flex-basis: 45%;
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.left > .login{
+     width: 300px;
+     background-color: aliceblue;
+     padding: 20px 20px ;
+}

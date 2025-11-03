@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 40%;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+input::placeholder{
+    font-size: 17px;
+    overflow: visible;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 40px;
+    background-color: blanchedalmond;
+}
+
+.box{
+    height: 200px;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 15px;
+    box-shadow: -2px 2px 2px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+img{
+    height: 80px;
+    width: 75px;
+}
+
+.box:hover{
+    transform: scale(1.1);
+}

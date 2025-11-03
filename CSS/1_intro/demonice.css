@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box>h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px ;
+}
+#box1{
+    background-image: url(./iron-man-superhero-vx704r8forptx2ml.jpg);
+}
+#box2{
+    background-image: url(./captain-america-cast.jpg);
+}
+#box3{
+    background-image: url(./OIP.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#box4{
+    background-image: url(./the-hulk.webp);
+}

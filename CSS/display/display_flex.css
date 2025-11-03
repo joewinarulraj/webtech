@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    width: 2000vb;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.inner{
+    height: 200px ;
+    width: 200px;
+    border:2px solid red;
+}
+.inner2{
+    height: 200px;
+    width: 200px;
+    border:  2px dotted blue;
+
+}

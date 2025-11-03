@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.outer{
+    height: 100vh;
+    background-image:linear-gradient(to right,red,orange,yellow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}   
+.outer > .box{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    transition: all 2s ease-out;
+
+    background-color: white;
+}
+.outer>.box:nth-child(2n){
+    background-color: black;
+}
+.outer #box1:hover{
+    transform: translate(320px,320px);
+
+}
+.outer>#box2:hover{
+    transform: rotate(90deg);
+}
+.outer>#box3:hover{
+    transform: scale(1.5);
+}
+.outer>#box4:hover{
+    transform: skew(30deg,20deg);
+}
+.outer>#box5:hover{
+    transform: translate(-200px,-200px) rotate(90deg) scale(2) skew(10deg) ;
+    border-radius: 50px;
+}

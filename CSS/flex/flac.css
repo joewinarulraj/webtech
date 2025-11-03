@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.orange{
+    height: 33vh;
+    background-color: orange;
+}
+.white{
+    height: 34vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.green{
+    height: 33vh;
+    background-color: green;
+}
+.white>img{
+    height:  90%;
+    animation: spin 3s linear infinite ;
+}
+@keyframes spin{
+
+    from{
+        transform: rotate(0);
+    }
+     to{
+        transform: rotate(360deg);
+     }
+}
